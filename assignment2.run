@@ -1,0 +1,11 @@
+reset;
+
+model assignment2.mod;
+
+data assignment2.dat;
+
+option solver cplex;
+
+solve;
+
+display x, y, z;
